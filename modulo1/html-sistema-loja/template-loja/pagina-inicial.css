@@ -1,0 +1,29 @@
+html {
+	background-color: #d3d3d3;
+}
+
+.titulo-pagina-inicial {
+	/* margin-left: 35%; */
+	text-align: center;
+}
+.sub-titulo-pagina-inicial {
+	/* margin-left: 39%; */
+	text-align: center;
+}
+footer {
+	padding-top: 390px;
+	/* margin-left: 35%; */
+	text-align: center;
+}
+/* #linha-horizontal {
+	border: 0;
+	border-top: 1px solid black;
+} */
+nav {
+	text-align: center;
+	/* margin-right: 100px; */
+}
+.centralizando-sociais {
+	/* margin-left: 90px; */
+	text-align: center;
+}

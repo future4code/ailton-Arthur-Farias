@@ -1,0 +1,20 @@
+html {
+	background-color: #d3d3d3;
+}
+.titulo-funcionarios {
+	text-align: center;
+}
+nav {
+	text-align: center;
+}
+h2 {
+	margin-left: 30px;
+}
+ul {
+	margin-left: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 250px;
+}
