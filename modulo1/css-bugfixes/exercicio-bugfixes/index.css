@@ -26,8 +26,8 @@ button:focus {
 }
 
 img {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 
 div > p:first-child {
@@ -131,8 +131,16 @@ td button:active {
 	border-radius: 5px;
 	font-size: 10px;
 	color: black;
+	text-align: center;
 }
 
 #back-button:hover {
 	background-color: #635a3d;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.centralizando-botao {
+	text-align: center;
+	padding-top: 35px;
 }
