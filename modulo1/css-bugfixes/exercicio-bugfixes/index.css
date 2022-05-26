@@ -40,8 +40,8 @@ div img {
 
 .botao-amarelo {
 	background-color: #ffaf43;
-	width: 330px;
-	height: 60px;
+	width: 400px;
+	height: 80px;
 	border-radius: 5px;
 	font-size: 20px;
 	color: white;
@@ -104,11 +104,18 @@ table {
 }
 
 td button {
-	background-color: #fadf63;
+	background-color: hsl(49, 49%, 42%);
 	width: 150px;
 	height: 30px;
 	border-radius: 5px;
 	color: black;
+}
+td button:hover {
+	background-color: #635a3d;
+}
+
+td button:active {
+	color: white;
 }
 
 .container-do-search {
