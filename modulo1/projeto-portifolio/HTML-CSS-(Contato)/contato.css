@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	text-decoration: 0;
+}
+body {
+	font-size: 100%;
+	background: linear-gradient(68.15deg, #ffffff 16.62%, #deb887 85.61%);
+}
