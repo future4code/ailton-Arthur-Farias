@@ -40,14 +40,13 @@ main {
 	text-align: center;
 }
 video {
-	width: 60%;
-	padding-top: 20px;
+	width: 65%;
 }
 .titulo-video {
 	display: flex;
 	justify-content: flex-start;
-	margin-left: 280px;
-	padding-top: 20px;
+	/* margin-left: 280px;
+	padding-top: 20px; */
 	font-size: 24px;
 	font-weight: 600;
 }
