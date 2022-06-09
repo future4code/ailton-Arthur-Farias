@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	text-decoration: 0;
+}
+body {
+	font-size: 100%;
+	background: linear-gradient(68.15deg, #ffffff 16.62%, #deb887 85.61%);
+}
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+.cabecalho-logo-div {
+	margin-right: 300px;
+}
+.cabecalho-logo {
+	margin-left: 30px;
+	margin-top: 20px;
+	/* font-family: 'IBM Plex Sans'; */
+	font-family: 'Bebas Neue', cursive;
+}
+.cabecalho-logo-2 {
+	margin-left: 50px;
+	margin-top: 2px;
+	font-size: x-large;
+	font-family: 'Oswald', sans-serif;
+}
+.cabecalho-item-menu:hover {
+	color: gray;
+}
+nav {
+	display: flex;
+	gap: 100px;
+	margin-right: 100px;
+}
+/*--------------------Até aqui foi o cabeçalho----------------*/
+main {
+	border-top: 1px solid black;
+}
+.sobre-mim {
+	margin-left: 40px;
+	padding-top: 40px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 320px;
+}
