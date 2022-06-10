@@ -43,19 +43,23 @@ const PostPhoto = styled.img`
 class Post extends React.Component {
 	state = {
 		curtido: false,
-		numeroCurtidas: 10,
+		numeroCurtidas: 0,
 		comentando: false,
-		numeroComentarios: 10,
+		numeroComentarios: 0,
 	}
 	//Se eu altero o valor ele muda lá na navegador
 
 	onClickCurtida = () => {
+		// const curtidoTroca = (this.state.curtido = true)
 		console.log('Curtiu!')
+		this.setState({ curtido: true })
+		this.setState({ numeroCurtidas: this.state.numeroCurtidas + 1 })
 	}
 
-	onClickComentario = () => {
+	onClickComentario = (event) => {
 		this.setState({
 			comentando: !this.state.comentando,
+			value: event.target.value,
 		})
 	}
 
