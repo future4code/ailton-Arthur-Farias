@@ -56,10 +56,9 @@ class Post extends React.Component {
 		this.setState({ numeroCurtidas: this.state.numeroCurtidas + 1 })
 	}
 
-	onClickComentario = (event) => {
+	onClickComentario = () => {
 		this.setState({
 			comentando: !this.state.comentando,
-			value: event.target.value,
 		})
 	}
 
