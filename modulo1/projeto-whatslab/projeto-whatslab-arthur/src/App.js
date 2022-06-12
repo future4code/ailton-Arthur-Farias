@@ -1,25 +1,20 @@
-import logo from './logo.svg'
 import './App.css'
+import React from 'react'
+import styled from 'styled-components'
 
-function App() {
-	// return (
-	//   <div className="App">
-	//     <header className="App-header">
-	//       <img src={logo} className="App-logo" alt="logo" />
-	//       <p>
-	//         Edit <code>src/App.js</code> and save to reload.
-	//       </p>
-	//       <a
-	//         className="App-link"
-	//         href="https://reactjs.org"
-	//         target="_blank"
-	//         rel="noopener noreferrer"
-	//       >
-	//         Learn React
-	//       </a>
-	//     </header>
-	//   </div>
-	// );
+const BordaContainer = styled.div`
+	border: 1px solid black;
+	padding-top: 20px;
+`
+class Chat extends React.Component {
+	render() {
+		return (
+			<BordaContainer>
+				<input></input>
+				<input></input>
+				<button>enviar</button>
+			</BordaContainer>
+		)
+	}
 }
-
-export default App
+export default Chat
