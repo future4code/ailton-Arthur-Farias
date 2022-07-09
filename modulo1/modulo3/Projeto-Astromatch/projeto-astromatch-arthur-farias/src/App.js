@@ -13,8 +13,6 @@ const App = (props) => {
 				return <ProfilePage changeMatchPage={changeMatchPage} />
 			case 'MatchPage':
 				return <MatchPage changeProfilePage={changeProfilePage} />
-			default:
-				return <ProfilePage />
 		}
 	}
 	const changeMatchPage = () => {
