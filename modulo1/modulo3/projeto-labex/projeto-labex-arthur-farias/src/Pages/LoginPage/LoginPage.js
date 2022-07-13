@@ -1,10 +1,17 @@
-const loginPage = () => {
+import { useNavigate } from 'react-router-dom'
+const LoginPage = () => {
+	const navigate = useNavigate()
+
+	const goToBack = () => {
+		navigate(-1)
+	}
 	return (
 		<div>
 			<h1>Login</h1>
-			<input placeholder 'E-mail'></input>
-			<input placeholder 'Senha'></input>
+			<input placeholder='E-mail' />
+			<input placeholder='Senha' />
+			<button onClick={goToBack}>Voltar</button>
 		</div>
 	)
 }
-export default loginPage
+export default LoginPage

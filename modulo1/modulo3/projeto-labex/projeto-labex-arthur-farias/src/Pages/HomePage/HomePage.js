@@ -1,10 +1,20 @@
-const homePage = () => {
+import { useNavigate } from 'react-router-dom'
+
+const HomePage = () => {
+	const navigate = useNavigate()
+
+	const goToTrips = () => {
+		navigate('/ListaViagens')
+	}
+	const goToLogin = () => {
+		navigate('/Login')
+	}
 	return (
 		<div>
 			<h1>LabeX</h1>
-			<button>Ver Viagens</button>
-			<button>Área de Admin</button>
+			<button onClick={goToTrips}>Ver Viagens</button>
+			<button onClick={goToLogin}>Área de Admin</button>
 		</div>
 	)
 }
-export default homePage
+export default HomePage
