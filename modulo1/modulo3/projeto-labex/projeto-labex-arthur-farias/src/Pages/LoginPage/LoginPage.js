@@ -10,6 +10,7 @@ const LoginPage = () => {
 			<h1>Login</h1>
 			<input placeholder='E-mail' />
 			<input placeholder='Senha' />
+			<button>Entrar</button>
 			<button onClick={goToBack}>Voltar</button>
 		</div>
 	)
