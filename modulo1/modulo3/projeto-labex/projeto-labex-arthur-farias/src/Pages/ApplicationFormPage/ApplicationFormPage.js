@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import { DivPrincipal } from './ApplicationFormPage.styled'
 const AplicationFormPage = () => {
 	const navigate = useNavigate()
 
@@ -6,7 +7,7 @@ const AplicationFormPage = () => {
 		navigate(-1)
 	}
 	return (
-		<div>
+		<DivPrincipal>
 			<h1>Inscreva-se para viagem</h1>
 			<select>
 				<option>Escolha uma Viagem</option>
@@ -19,7 +20,7 @@ const AplicationFormPage = () => {
 				<option>Escolha um País</option>
 			</select>
 			<button onClick={goToBack}>VOLTAR</button>
-		</div>
+		</DivPrincipal>
 	)
 }
 export default AplicationFormPage

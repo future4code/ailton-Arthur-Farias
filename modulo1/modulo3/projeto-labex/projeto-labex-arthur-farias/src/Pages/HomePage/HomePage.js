@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import { DivPrincipal, DivBotão } from './HomePage.styled'
 
 const HomePage = () => {
 	const navigate = useNavigate()
@@ -10,11 +11,13 @@ const HomePage = () => {
 		navigate('/Login')
 	}
 	return (
-		<div>
+		<DivPrincipal>
 			<h1>LabeX</h1>
-			<button onClick={goToTrips}>Ver Viagens</button>
-			<button onClick={goToLogin}>Área de Admin</button>
-		</div>
+			<DivBotão>
+				<button onClick={goToTrips}>Ver Viagens</button>
+				<button onClick={goToLogin}>Área de Admin</button>
+			</DivBotão>
+		</DivPrincipal>
 	)
 }
 export default HomePage
