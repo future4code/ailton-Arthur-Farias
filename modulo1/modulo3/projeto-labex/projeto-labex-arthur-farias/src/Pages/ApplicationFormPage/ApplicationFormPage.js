@@ -13,7 +13,7 @@ const AplicationFormPage = () => {
 				<option>Escolha uma Viagem</option>
 			</select>
 			<input placeholder='Nome'></input>
-			<input placeholder='Idade' type={Number}></input>
+			<input placeholder='Idade' type='Number'></input>
 			<input placeholder='Texto de Candidatura'></input>
 			<input placeholder='Profissão'></input>
 			<select>
