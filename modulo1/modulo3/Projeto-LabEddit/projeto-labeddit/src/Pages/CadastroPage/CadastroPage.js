@@ -1,29 +1,38 @@
 import React from 'react'
 import HeaderCadastro from '../../Components/HeaderCadastro/HeaderCadastro'
+import {
+	DivPrincipalCadastro,
+	DivH1,
+	DivInputs,
+	DivPolitica,
+	DivBotao,
+} from './CadastroPage.styled'
 
 const CadastroPage = () => {
 	return (
-		<div>
+		<DivPrincipalCadastro>
 			<HeaderCadastro />
-			<div>
+			<DivH1>
 				<h1>Olá, boas vindas ao LabEddit</h1>
-			</div>
-			<div>
+			</DivH1>
+			<DivInputs>
 				<input placeholder='Nome do Usuário' />
 				<input placeholder='E-mail' />
 				<input placeholder='Senha' />
-			</div>
-			<div>
+			</DivInputs>
+			<DivPolitica>
 				<p>
-					Ao continuar, você concorda como o nosso <p>Contrato de usuário</p>e a
-					nossa <p>Política de privacidade</p>
+					Ao continuar, você concorda como o nosso
+					<strong> Contrato de usuário</strong> e a nossa
+					<strong> Política de privacidade</strong>
 				</p>
-				<div>
+				<DivBotao>
 					<button>.</button>
 					<p>Eu concordo em receber emails sobre coisas legais no LabEddit</p>
-				</div>
-			</div>
-		</div>
+				</DivBotao>
+				<button className='Botao'>Cadastrar</button>
+			</DivPolitica>
+		</DivPrincipalCadastro>
 	)
 }
 export default CadastroPage

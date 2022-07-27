@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import React from 'react'
 import LoginPage from '../Pages/LoginPage/LoginPage'
 import CadastroPage from '../Pages/CadastroPage/CadastroPage'
+import FeedPage from '../Pages/FeedPage/Feedpage'
+import PostPage from '../Pages/PostPage/PostPage'
 
 export const goToLogin = (navigate) => {
 	navigate(-1)
@@ -20,6 +22,8 @@ const Rotas = () => {
 					path='/cadastro'
 					element={<CadastroPage goToLogin={goToLogin} />}
 				/>
+				<Route path='/feed' element={<FeedPage />} />
+				<Route path='/post:id' element={<PostPage />} />
 			</Routes>
 		</BrowserRouter>
 	)
