@@ -4,8 +4,11 @@ import Vector1 from '../../Imagens/Vector (1).png'
 import Vector2 from '../../Imagens/Vector (2).png'
 import Vector3 from '../../Imagens/Vector (3).png'
 import Vector4 from '../../Imagens/Vector (4).png'
+import { useState } from 'react'
 
 const LoginPage = (props) => {
+	const [nome, setNome] = useState('')
+	const [senha, setSenha] = useState('')
 	const navigate = useNavigate()
 	return (
 		<div>
