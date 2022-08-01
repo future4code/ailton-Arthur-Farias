@@ -8,7 +8,13 @@ import PostPage from '../Pages/PostPage/PostPage'
 export const goToLogin = (navigate) => {
 	navigate(-1)
 }
+export const goToFeed = (navigate) => {
+	navigate('/feed')
+}
 
+export const goToPost = (navigate) => {
+	navigate(`/post:id`)
+}
 const Rotas = () => {
 	const goToCadastro = (navigate) => {
 		navigate('/cadastro')

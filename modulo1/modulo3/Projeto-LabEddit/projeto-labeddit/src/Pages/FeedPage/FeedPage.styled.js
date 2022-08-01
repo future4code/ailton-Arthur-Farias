@@ -48,3 +48,14 @@ export const DivInterna = styled.div`
 		color: #ffffff;
 	}
 `
+export const DivMapPrincipal = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+`
+export const DivMap = styled.div`
+	border: 1px solid;
+	width: 50%;
+	height: 14%;
+	text-align: center;
+`
