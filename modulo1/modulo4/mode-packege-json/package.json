@@ -1,0 +1,13 @@
+{
+  "name": "mode-packege-json",
+  "version": "1.0.0",
+  "description": "Atividade do dia 9 de agosto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Arthur",
+  "license": "ISC"
+}
